@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import { CartProvider } from './context/CartContext';
+import ScrollToTop from './components/ScrollToTop';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Products from './pages/Products';
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <CartProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />

@@ -24,7 +24,7 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-3">Contact</h4>
             <div className="space-y-2 text-sm text-gray-400">
               <p>support@vastra.com</p>
-              <p>+91 98765 43210</p>
+              <p>+91 80567 50411</p>
               <p>Mumbai, Maharashtra, India</p>
             </div>
           </div>
